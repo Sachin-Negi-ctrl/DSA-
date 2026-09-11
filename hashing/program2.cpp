@@ -22,9 +22,9 @@ int main(){
 
     //mapping string to the hash map
     for(int i=0; i<s.length(); i++){
-        int val = 0; 
-        val = s[i] - 'a';
-        hash[val] += 1;
+        // int val = 0; 
+        // val = s[i] - 'a';
+        hash[s[i]-'a'] += 1;
     }
     //give the ouput
     cout<<hash[v];
